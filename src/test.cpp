@@ -20,7 +20,7 @@ int test(double angular_bound){
                                                      0.1,  // radius bound
                                                      0.1); // distance bound
   // meshing surface
-  CGAL::make_surface_mesh(c2t3, surface, criteria, CGAL::Non_manifold_tag());
+  //CGAL::make_surface_mesh(c2t3, surface, criteria, CGAL::Non_manifold_tag());
 
   //std::cout << "Final number of points: " << tr.number_of_vertices() << "\n";
   int return_val = 5;//tr.number_of_vertices();
