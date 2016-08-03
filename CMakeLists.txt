@@ -11,6 +11,7 @@ if ( CGAL_FOUND AND CGAL_ImageIO_FOUND )
 
   include( ${CGAL_USE_FILE} )
   include_directories(${CGAL_INCLUDE_DIRS})
+  message(${CGAL_INCLUDE_DIRS})
   include_directories(include)
 
   #include( CGAL_CreateSingleSourceCGALProgram )
